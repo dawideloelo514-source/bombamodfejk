@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "d3szcz",
+  "version": "${version}",
+  "name": "D3SZCZ",
+  "description": "Fake GUI (tylko wizualne, wszystkie dane losowe).",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.d3szcz.D3szczClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
